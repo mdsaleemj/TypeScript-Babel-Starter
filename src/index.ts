@@ -4,5 +4,7 @@ export class C {
     setX = (newVal: number) => { this.x = newVal; }
 }
 
+
 export let x = new C();
 export let y = { ...{ some: "value" } };
+console.log("completed...");
